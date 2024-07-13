@@ -1,0 +1,178 @@
+
+{% extends "base.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block content %}
+    <div class="container py-5">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">SPICES</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-primary " href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary " href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="#product">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary " href="#contact">Contact</a>
+                  </li>
+                  
+                </ul>
+                <button class="btn p-2 my-2">Sign in</button>
+              </div>
+              
+                
+            </div>
+          </nav>
+          <!--Home Section-->
+          <section id="home">
+            <h1 class="text-white text-center">Oraganic Spices</h1>
+            <p class="text-white ">Variety's the very spice of life, That gives it all its flavor</p>
+            <div class="input-group m-4">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <button class="btn signin">Get Started</button>
+            </div>
+          </section>
+          <!--About Section-->
+          <section id="about">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 text-center">
+                  <img src="About-PhotoRoom.png-PhotoRoom.png" height="600px" width="500px" class="my-5 img-fluid bg-white rounded-circle " alt="100% organic">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-lg-5 p-2 my-5">
+                  <h1 class="text-white my-2">ABOUT US</h1>
+                  <p class="text-white my-4">Healthy Conscious Living includes conscious business practices to ensure our impact on our world and communities is a positive one. At the foundation of ORGANIC INDIA’s products, company, and sourcing is regenerative agriculture that not only sustains but replenishes the earth; fair trade practices that support and honour farmer partners with equitable wages, health care, and ongoing organic agricultural training; and a LEED Platinum certified production facility that is a marvel of top-tier sustainable design, construction, and operations. This all culminates in the creation of Organic, Non-GMO herbal teas and supplements that support the health of the population, the vibrancy of the planet, and the livelihood of communities in India. <br><br>
+                    At ORGANIC INDIA we celebrate the healing power of Mother Nature to nourish and restore us to our best health. Explore our curated range of certified organic, whole herb supplements, teas, and infusions to help you control your blood sugar the natural way. Because let’s face it, nature knows best! <br><br>
+                    It is a well-known fact that no Indian cuisine is complete without Indian spices. There many different spices that are used in Indian cooking from turmeric, cumin, asafetida, mustard seed, fenugreek, to chilli powder. They all are highly essential and plays a vital role in Indian cooking. They not only improve the overall taste and flavor of any dish, but also make it richer and delicious <br><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Product section-->
+          <section id="product">
+            <div class="container m-5">
+              <h1 class="text-center my-5">Our Products</h1>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="products/turmeric.jpg" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Turmeric</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card text-center">
+                     <img src="products/chilly.jpg" class="card-img-top " alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Chilly </h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card text-center">
+                    <img src="products/cumin.jpg" class="card-img-top " alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Cumin</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="products/garlic.jpg" class="card-img-top" alt="">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Garlic</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card text-center">
+                    <img src="products/saunf.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Saunf</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card text-center">
+                    <img src="products/lavangam.jpeg" class="card-img-top " alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Lavangam</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="products/malli.jpg" class="card-img-top" alt="">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Malli</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card text-center">
+                    <img src="products/ginger.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Ginger</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card text-center">
+                    <img src="products/pepper.jpg" class="card-img-top " alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Pepper</h5>
+                      <a href="#" class="btn signin">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Contact section-->
+          <section  id="contact">
+            <div bgcolor="greenyellow" class="container-fluid box">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 my-4">
+                    <img src="contact.jpg" height="100px" width="500px" class=" rounded-pill" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <h2 class="mt-3 display-3">Contact Us</h2>
+                  <form class="mt-3">
+                    <input type="text" class="form-control mt-2" placeholder="Enter your Name">
+                    <input type="text" class="form-control mt-2" placeholder="Enter your Email">
+                    <textarea name="" class="form-control mt-2" placeholder="Enter your Message" ></textarea>
+                    <button class="form-control mt-2 signin">Send Message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <footer>Copyrights@HarshiniProject</footer>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+    </div>
+{% endblock %}

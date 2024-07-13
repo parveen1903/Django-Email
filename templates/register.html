@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block content %}
+
+<div class="container bg-secondary bg-opacity-10 border border-dark" style="margin-top: 100px;">
+    
+    <div class="col-md-offset-2 col-md-8 m-4">
+        <h2 class="text-primary page-header text-center m-5">User Registration</h2>
+    </div>
+    <div class="col-md-offset-2 col-md-8 m-5">
+        <form method="POST">
+            {% csrf_token %}
+            {{ register_form.as_p }}
+            <button class="btn btn-primary text-center" type="submit">Register</button>
+        </form>
+        <p class="text-center">If you already have an account, <a href="/login">login</a> instead.</p>
+    </div>
+</div>
+    
+{% endblock %}
